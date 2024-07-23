@@ -1,0 +1,70 @@
+/* Estilos básicos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos básicos para os títulos */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para a seção Flexbox */
+.flex-container {
+    display: flex;                 /* Define o contêiner como Flexbox */
+    justify-content: center;       /* Centraliza os itens horizontalmente */
+    align-items: center;           /* Centraliza os itens verticalmente */
+    height: 200px;                 /* Altura do contêiner Flexbox */
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os itens Flexbox */
+.flex-item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos para a seção Grid */
+.grid-container {
+    display: grid;                 /* Define o contêiner como Grid */
+    grid-template-areas:           /* Define as áreas do grid */
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
+    grid-gap: 10px;                /* Espaço entre os itens do grid */
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+/* Estilos para os itens Grid */
+.grid-item {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Áreas específicas do Grid */
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
