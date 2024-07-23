@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Propriedades CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exercício de Propriedades CSS</h1>
+    </header>
+    <main>
+        <section class="destaque">
+            <h2>Seção Destacada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section>
+            <h2>Outra Seção</h2>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Exercício de Propriedades CSS</p>
+    </footer>
+</body>
+</html>

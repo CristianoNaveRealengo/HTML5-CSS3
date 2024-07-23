@@ -1,0 +1,40 @@
+/* Estilos de Tamanhos e Tipos de Fonte */
+.fonte-grande {
+    font-size: 24px;
+}
+
+.fonte-pequena {
+    font-size: 12px;
+}
+
+.fonte-personalizada {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+/* Estilos de Cores de Texto */
+.texto-vermelho {
+    color: red;
+}
+
+.texto-verde {
+    color: green;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+/* Estilos de Imagens e Cores de Fundo */
+.fundo-imagem {
+    background-image: url('https://via.placeholder.com/400x200');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.fundo-cor {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}

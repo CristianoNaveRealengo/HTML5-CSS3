@@ -1,0 +1,18 @@
+/* Estilo para parágrafos */
+p {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Estilo para divs */
+div {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+    color: blue;
+}

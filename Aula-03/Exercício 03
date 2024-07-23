@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Estilização de Texto e Cores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exercício de Estilização de Texto e Cores</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Tamanhos de Fonte e Tipos de Fonte</h2>
+            <p class="fonte-grande">Texto com fonte grande.</p>
+            <p class="fonte-pequena">Texto com fonte pequena.</p>
+            <p class="fonte-personalizada">Texto com fonte personalizada.</p>
+        </section>
+        <section>
+            <h2>Cores de Texto</h2>
+            <p class="texto-vermelho">Texto vermelho.</p>
+            <p class="texto-verde">Texto verde.</p>
+            <p class="texto-azul">Texto azul.</p>
+        </section>
+        <section>
+            <h2>Imagens e Cores de Fundo</h2>
+            <div class="fundo-imagem">
+                <h3>Div com imagem de fundo</h3>
+            </div>
+            <div class="fundo-cor">
+                <h3>Div com cor de fundo</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Exercício de Estilização de Texto e Cores</p>
+    </footer>
+</body>
+</html>
