@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Exercise</title>
+  <style>
+    /* Estilizando o contêiner principal */
+    .container {
+      display: flex; /* Define o contêiner como um flex container */
+      justify-content: center; /* Centraliza os itens horizontalmente */
+      align-items: center; /* Centraliza os itens verticalmente */
+      height: 100vh; /* Define a altura do contêiner para 100% da altura da viewport */
+    }
+
+    /* Estilizando os itens flexíveis */
+    .item {
+      background-color: lightcoral; /* Define a cor de fundo dos itens */
+      padding: 20px; /* Adiciona preenchimento interno aos itens */
+      margin: 10px; /* Adiciona espaçamento entre os itens */
+    }
+  </style>
+</head>
+<body>
+  <!-- Contêiner flexível -->
+  <div class="container">
+    <!-- Itens flexíveis dentro do contêiner -->
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+</body>
+</html>

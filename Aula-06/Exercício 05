@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout Exercise</title>
+    <style>
+      /* Estilizando o contêiner principal */
+      .container {
+        display: grid; /* Define o contêiner como um grid container */
+        grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
+        gap: 10px; /* Adiciona um espaçamento de 10px entre os itens da grade */
+      }
+      /* Estilizando os itens da grade */
+      .item {
+        background-color: lightblue; /* Define a cor de fundo dos itens */
+        padding: 20px; /* Adiciona preenchimento interno aos itens */
+        text-align: center; /* Centraliza o texto dentro dos itens */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Itens da grade dentro do contêiner -->
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
+
+</html>

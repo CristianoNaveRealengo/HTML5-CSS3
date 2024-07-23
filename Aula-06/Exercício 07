@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling Exercise</title>
+    <style>
+      /* Estilizando a caixa avançada */
+      .styled-box {
+        width: 200px;
+        /* Define a largura da caixa */
+        height: 100px;
+        /* Define a altura da caixa */
+        background: linear-gradient(to right, red, yellow);
+        /* Aplica um gradiente linear do vermelho ao amarelo da esquerda para a direita */
+        box-shadow: 5px 5px 10px gray;
+        /* Adiciona uma sombra na caixa com deslocamento de 5px na horizontal e vertical, e um desfoque de 10px */
+        border-radius: 10px;
+        /* Arredonda os cantos da caixa com um raio de 10px */
+        text-align: center;
+        /* Centraliza o texto dentro da caixa horizontalmente */
+        padding: 20px;
+        /* Adiciona um preenchimento interno de 20px em todos os lados */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="styled-box">Styled Box</div> <!-- Caixa estilizada -->
+  </body>
+  
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Animation Exercise</title>
+		<style>
+			/* Estilizando a caixa com transição */
+			.box {
+				width: 100px;/* Define a largura da caixa */
+				height: 100px;/* Define a altura da caixa */
+				background-color: lightgreen;/* Define a cor de fundo da caixa */
+				transition: transform 0.5s ease-in-out;/* Define a transição para a propriedade transform com duração de 0.5s e uma curva de velocidade ease-in-out */
+			}
+
+			/* Estilizando a caixa ao passar o mouse por cima */
+			.box:hover {
+				transform: scale(1.1);/* Aumenta a escala da caixa em 10% quando o mouse está sobre ela */
+			}
+
+			/* Definindo animação com keyframes */
+			@keyframes colorChange {
+				0% {
+					background-color: lightgreen;/* Cor inicial da caixa */
+				}
+
+				50% {
+					background-color: lightblue;/* Cor da caixa no meio da animação */
+				}
+
+				100% {
+					background-color: lightgreen;/* Cor final da caixa */
+				}
+			}
+
+			/* Estilizando a caixa com animação */
+			.animated-box {
+				width: 100px;/* Define a largura da caixa */
+				height: 100px;/* Define a altura da caixa */
+				animation: colorChange 2s infinite;/* Aplica a animação definida por keyframes com duração de 2s e repetição infinita */
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="box">Hover me</div> <!-- Caixa com transição aplicada -->
+		<div class="animated-box">Animated</div> <!-- Caixa com animação aplicada -->
+	</body>
+
+</html>
