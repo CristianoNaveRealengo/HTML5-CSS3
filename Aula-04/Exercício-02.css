@@ -1,0 +1,36 @@
+/* Estilos básicos para todas as caixas */
+.box {
+    width: 200px;           /* Largura da caixa */
+    padding: 20px;          /* Espaço interno da caixa */
+    margin: 20px;           /* Espaço ao redor da caixa */
+    background-color: lightblue; /* Cor de fundo da caixa */
+    border: 2px solid blue; /* Borda da caixa */
+}
+
+/* Estilo para a caixa com posicionamento relative */
+.relative {
+    position: relative;     /* Define o posicionamento relativo */
+    top: 20px;              /* Move 20px para baixo da posição original */
+    left: 20px;             /* Move 20px para a direita da posição original */
+}
+
+/* Estilo para a caixa com posicionamento absolute */
+.absolute {
+    position: absolute;     /* Define o posicionamento absoluto */
+    top: 100px;             /* Move 100px para baixo do topo da página */
+    left: 100px;            /* Move 100px para a direita do lado esquerdo da página */
+}
+
+/* Estilo para a caixa com posicionamento fixed */
+.fixed {
+    position: fixed;        /* Define o posicionamento fixo */
+    top: 20px;              /* Fixa 20px abaixo do topo da janela */
+    right: 20px;            /* Fixa 20px à esquerda do lado direito da janela */
+}
+
+/* Estilo para a caixa com posicionamento sticky */
+.sticky {
+    position: -webkit-sticky; /* Define o posicionamento sticky (para suporte no Safari) */
+    position: sticky;         /* Define o posicionamento sticky */
+    top: 0;                   /* Mantém a caixa no topo da página ao rolar */
+}
